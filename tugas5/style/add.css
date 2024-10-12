@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f7fafc;
+    padding: 20px;
+    color: #2d3748;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #2d3748;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4c1d95;
+    box-shadow: 0 0 0 3px rgba(76, 29, 149, 0.1);
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #4c1d95;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #5b21b6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 29, 149, 0.2);
+}
+
+.btn-secondary {
+    background: gray;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: rgba(128, 128, 128, 0.626);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 29, 149, 0.2);
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 20px;
+    }
+}
