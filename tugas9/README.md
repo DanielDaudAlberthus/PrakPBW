@@ -9,15 +9,15 @@
 
 ## Praktikum Pertemuan 9
 
-#Laravel 11/7 DB FACADES
+<b>Laravel 11/7 DB FACADES</b>
 ![image](https://github.com/user-attachments/assets/900d27cc-01e2-4043-a80c-2de541fbf285)
 ![image](https://github.com/user-attachments/assets/b7698fd3-21b0-46f8-ab06-9b57b34b59d4)
 
 
-#Laravel 11/8 Model dan Fetching
+<b>Laravel 11/8 Model dan Fetching/<b>
 ![image](https://github.com/user-attachments/assets/f383fba4-4dca-44bd-8dd5-42dbd7725e53)
 
-#Laravel 11/9 Kondisi Dalam Komponen
+<b>Laravel 11/9 Kondisi Dalam Komponen</b>
 ![image](https://github.com/user-attachments/assets/f44787cf-e66b-45b4-954d-947ec8d1f663)
 
 #Laravel 11/10 Fillable and Guarded
